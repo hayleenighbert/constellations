@@ -1,0 +1,109 @@
+body {
+	background-image: url("https://ipoem.files.wordpress.com/2013/06/constellations.jpg");
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+	padding-top: 0px;
+		background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center center;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	background-size: cover;
+}
+
+body.about {
+	background-image: url("");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center center;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	background-size: cover;
+}
+
+.container {
+	background-color:black;
+	width: 300px ;
+	float: center;
+	padding: 20px;
+	margin-top:70px;
+	opacity: 0.8;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.row {
+	vertical-align: center;
+}
+
+#icon {
+    color: #fff;
+    font-size: 50px;
+    vertical-align: center;
+}
+
+h1 {
+
+	font-size: 18px;
+	color: #ccc;
+	text-shadow: 2px 2px 2px #ccc;
+	text-align: center;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+.navwrapper {
+	background-color: black;
+}
+.page{
+
+}
+.ng-enter {
+	z-index: 8888;
+}
+
+.ng-leave {
+	z-index: 8888;
+}
+
+.page-first.ng-enter {
+	animation: slideInLeft 0.5s both ease-in;
+}
+
+.page-first.ng-leave {
+	animation: slideOutRight 0.5s both ease-in;
+}
+
+@keyframes slideInLeft {
+	to { transform: translateX(100%);}
+}
+
+@keyframes slideOutRight {
+	to { transform: translateX(-100%);}
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideOutRight {
+  to {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInLeft {
+  animation-name: slideInLeft;
+}

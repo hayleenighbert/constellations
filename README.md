@@ -1,1 +1,3 @@
-# constellations
+#Constellations
+
+##Explore the galaxy!
