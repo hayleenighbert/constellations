@@ -2,6 +2,13 @@ angular.module('AppCtrls', [])
 .controller('AppCtrl', ['$scope', function($scope) {
   $scope.pageClass = "index-page";
 
+// .controller('CardsCtrl', ['$scope', function($scope) {
+//   $scope.cards = [
+//     {constellation: "Andromeda Constellation"},
+//   ];
+
+// }]);
+
 
 }])
 // .controller("AppShowCtrl", [
@@ -20,6 +27,9 @@ angular.module('AppCtrls', [])
 	$scope.pageClass = "first-page";
 
 }])
+
+angular.module('CardCtrls', [])
+
 
   // App.query(function success(data) {
   //   $scope.apps = data;

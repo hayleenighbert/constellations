@@ -1,0 +1,9 @@
+<section id="cards" class='container-fluid' ng-controller="AppCtrl">
+          <div class='row'>
+            <div class='col-sm-6 col-md-6 col-lg-4' ng-repeat="card in cards">
+            <card question="{{card.question}}" question-model="card" on-card-loaded="log(message)"></card>
+              </div>
+            </div>
+
+          </div>
+        </section>

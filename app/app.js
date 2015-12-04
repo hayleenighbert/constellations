@@ -14,6 +14,8 @@ app.config([
 			templateUrl: "views/contact.html"
 		}).when("/perseus", {
 			templateUrl: "views/perseus.html"
+		}).when("/andromeda", {
+			templateUrl: "views/andromeda.html"
 		// }).when("/doughnut/:id", {
 		// 	templateUrl: "views/doughtnut.html",
 		// 	controller: "DoughnutShowCtrl"
