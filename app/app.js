@@ -1,4 +1,4 @@
-var app = angular.module('MyApp', ['AppCtrls', "ngRoute", 'ngAnimate']);
+var app = angular.module('MyApp', ['AppCtrls', "ngRoute", 'ngAnimate', 'likes']);
 
 app.config([
 	"$routeProvider", //index in the array
@@ -8,12 +8,12 @@ app.config([
 			templateUrl: "views/index.html", //render
 			controller: "AppCtrl" //provides data for that view
 		}).when("/about", {
-			templateUrl: "views/about.html",
-			controller: "PageOne"
+			templateUrl: "views/about.html"
 		}).when("/contact", {
 			templateUrl: "views/contact.html"
 		}).when("/perseus", {
-			templateUrl: "views/perseus.html"
+			templateUrl: "views/perseus.html",
+			controller: "PageOne"
 		}).when("/andromeda", {
 			templateUrl: "views/andromeda.html"
 		// }).when("/doughnut/:id", {

@@ -2,13 +2,13 @@ angular.module('AppCtrls', [])
 .controller('AppCtrl', ['$scope', function($scope) {
   $scope.pageClass = "index-page";
 
-// .controller('CardsCtrl', ['$scope', function($scope) {
-//   $scope.cards = [
-//     {constellation: "Andromeda Constellation"},
-//   ];
+}])
 
-// }]);
-
+.controller('CardsCtrl', ['$scope', function($scope) {
+  // $scope.cards = [
+  //   {constellation: "Andromeda Constellation"},
+  //   {constellation: "Perseus Constellation"}
+  // ];
 
 }])
 // .controller("AppShowCtrl", [
@@ -24,9 +24,9 @@ angular.module('AppCtrls', [])
 // 	}
 // ])
 .controller('PageOne', ['$scope', function($scope){
-	$scope.pageClass = "first-page";
+	$scope.pageClass = "page-first";
 
-}])
+}]);
 
 angular.module('CardCtrls', [])
 
